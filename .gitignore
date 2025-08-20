@@ -1,0 +1,31 @@
+# Environnements virtuels
+.venv/
+venv/
+ENV/
+env/
+
+# Fichiers de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Config Streamlit (optionnel)
+.streamlit/
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.bak
+
+# Fichiers de notebook Jupyter
+*.ipynb_checkpoints
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
+
+# Données locales sensibles ou volumineuses (ex : CSV s'il devient trop lourd)
+# base_bibracte.csv
+
+# VS Code
+.vscode/
